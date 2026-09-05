@@ -7,7 +7,10 @@ authors = [
     { name = "rapipon", email = "rodvasbiev@yandex.ru" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.3.0",
+    "pandas>=3.0.5",
+]
 
 [project.scripts]
 complaint-intelligence = "complaint_intelligence:main"
